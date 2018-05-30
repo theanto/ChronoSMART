@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "773485596092",
+    "firebase_url": "https://chronosmart.firebaseio.com",
+    "project_id": "chronosmart",
+    "storage_bucket": "chronosmart.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773485596092:android:ebb0901eb4a85f19",
+        "android_client_info": {
+          "package_name": "com.example.anto.chronosmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773485596092-sir6rngoa3476ps8s3mm0bogubs06kbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqWNB7bTB0pQ5PM4IUE2WcZMqbqnqSnDo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

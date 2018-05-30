@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+
+
+    tools:context="com.example.anto.chronosmart.editProfileActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:elevation="3dp"><![CDATA[>]]>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_toStartOf="@+id/Bbutton"
+            android:text="Name" />
+
+        <EditText
+            android:id="@+id/edName"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/btn_login_bg"
+            android:ems="10"
+            android:hint="Name*"
+            android:inputType="textImeMultiLine|textPersonName"
+            android:textAlignment="viewStart" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="120dp"
+            android:text="Surname" />
+
+        <EditText
+            android:id="@+id/edSurname"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="110dp"
+            android:background="@color/btn_login_bg"
+            android:ems="10"
+            android:hint="Surname*"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
+            android:text="Age" />
+
+        <EditText
+            android:id="@+id/edAge"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="170dp"
+            android:width="250dp"
+            android:background="@color/btn_login_bg"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textPersonName" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/tMeteo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Update your personal data"
+        android:textColor="@color/cardview_light_background" />
+
+    <Button
+        android:id="@+id/updateData"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="139dp"
+        android:layout_marginStart="51dp"
+        android:background="@drawable/buttonstylehome"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/Bbutton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tMeteo"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="81dp"
+        android:background="@drawable/buttonstyle"
+        android:text="Back"
+        android:textColor="#fff" />
+
+
+</RelativeLayout>
