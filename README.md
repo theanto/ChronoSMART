@@ -53,10 +53,26 @@ Quando il corridore passa davanti il sensore posto alla fine della corsa, il tem
 
 
 
-# Screenshot
+# ChronoSMART - General task
 
 
 The user must register in the app and login for use all the functionality. You can set up a training session (enabling the Nucleo board to record the time) and can check the results.
 
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/Screenshot.jpg "ScreenApp")
+
+
+# ChronoSMART - Record time
+
+The user must press "Start" button, and after , when athlete finish to run, the time appears on the screen, along with two buttons, one to save the session and one to delete it.
+
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/start.jpg "Record Time")
+
+
+# ChronoSMART - Show the results
+
+The user can access his statistics by clicking on the menu in the appropriate button.
+The statistics are shown as a graph, with the possibility of being zoomed, containing the times, dates and weather information.
+
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/result.jpg "Result")
+
