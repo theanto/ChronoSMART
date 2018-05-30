@@ -8,6 +8,7 @@ Used for athletic races of 100m, 200m and 400m.
 - 3x Bluetooth module [HC-SR04](http://www.radiofo.it/files/articoli/sku026931new.pdf) 
 - 3x Led (optional)
 - Some cable.
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/arduino-hc05-kullanc4b1mc4b1.jpg "Architecture")
 
 # How to work
 
