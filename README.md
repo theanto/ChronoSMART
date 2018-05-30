@@ -7,13 +7,17 @@ Used for athletic races of 100m, 200m and 400m.
 - 2x Nucleo board [STM32F401](http://www.st.com/en/microcontrollers/stm32f401.html?querycriteria=productId=LN1810) 
 - 3x Bluetooth module [HC-SR04](http://www.radiofo.it/files/articoli/sku026931new.pdf) 
 - 3x Led (optional)
-- Some cable.
+- Some cable.  
+- Chronosmart Application
+
+
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/arduino-hc05-kullanc4b1mc4b1.jpg "Architecture")
+
 
 # How to work
 
 
-![screen](https://github.com/theanto/chronoSMART/blob/master/screen/figure-1-architecture.jpg "Architecture")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/howtowork.jpg "Architecture")
 
 
 
