@@ -14,8 +14,40 @@ Used for athletic races of 100m, 200m and 400m.
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/arduino-hc05-kullanc4b1mc4b1.jpg "Architecture")
 
 
+We use 3 bluetooth module.
+Two module are connected with master and slave method.
+
+Most useful AT commands are
+
+- AT : Ceck the connection.
+- AT+NAME : See default name
+- AT+ADDR : see default address
+- AT+VERSION : See version
+- AT+UART : See baudrate
+- AT+ROLE: See role of bt module(1=master/0=slave)
+- AT+RESET : Reset and exit AT mode
+- AT+ORGL : Restore factory settings
+- AT+PSWD: see default password
+
+Slave configuration 
+
+![screen](https://howtomechatronics.com/wp-content/uploads/2016/04/Slave-Configuration-HC-05-Bluetooth-Module-Arduino.png )
+
+Master configuration 
+
+![screen](https://howtomechatronics.com/wp-content/uploads/2016/04/Master-Configuration-HC-05-Bluetooth-Module-Arduino.png )
+
+
+
+Code for Arduino IDE (MASTER and SLAVE) is avalible on : 
+### https://github.com/LuigiZ91/Chronosmart
+
+
 # How to work
 
+The athlete positions the two devices, one on the starting line, respectively, while the other on the finish line.
+The athlete from the Chronosmart app, enables the device. Next it is positioned near the sensor and the light on the device comes on. When the athlete starts the light goes out and the device starts counting the time.
+Quando il corridore passa davanti il sensore posto alla fine della corsa, il tempo viene inviato all'app e il corridore sceglierà se salvarlo o rifiutarlo.
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/howtowork.jpg "Architecture")
 
@@ -24,7 +56,7 @@ Used for athletic races of 100m, 200m and 400m.
 # Screenshot
 
 
-The user must register and log in to the application. You can set up a training session (enabling the Nucleo board to record the time) and can check its timing.
+The user must register in the app and login for use all the functionality. You can set up a training session (enabling the Nucleo board to record the time) and can check the results.
 
 
-![screen](https://github.com/theanto/chronoSMART/blob/master/screen/Screenshot%20(26).jpg "ScreenApp")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/Screenshot.jpg "ScreenApp")
