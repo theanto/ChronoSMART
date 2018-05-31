@@ -6,7 +6,7 @@ Used for athletic races of 100m, 200m and 400m.
 # Hardware materials
 - 2x Nucleo board [STM32F401](http://www.st.com/en/microcontrollers/stm32f401.html?querycriteria=productId=LN1810) 
 - 2x Proximity sensors [HC-SR04](http://www.radiofo.it/files/articoli/sku026931new.pdf) 
-- 3x Bluetooth module [HC-05] (https://components101.com/wireless/hc-05-bluetooth-module)
+- 3x Bluetooth module [HC-05](https://components101.com/wireless/hc-05-bluetooth-module)
 - 3x Led (optional)
 - Some cable.  
 - Chronosmart Application
