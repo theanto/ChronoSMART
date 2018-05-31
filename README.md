@@ -56,7 +56,7 @@ The components of our project are:
 
 The athlete positions the two devices, one on the starting line, respectively, while the other on the finish line.
 The athlete from the Chronosmart app, enables the device. Next it is positioned near the sensor and the light on the device comes on. When the athlete starts the light goes out and the device starts counting the time.
-Quando il corridore passa davanti il sensore posto alla fine della corsa, il tempo viene inviato all'app e il corridore sceglierà se salvarlo o rifiutarlo.
+When the rider passes in front of the sensor at the end of the race, the time is sent to the app and the runner will choose whether to save or reject it.
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/howtowork1.jpg "Architecture")
 
