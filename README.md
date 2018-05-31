@@ -1,4 +1,4 @@
-# ChronoSMART - (Alpha V1)
+# ChronoSMART
 
 Revolutionary app for record time in a completely automatic way.
 Used for athletic races of 100m, 200m and 400m.
