@@ -58,7 +58,7 @@ The athlete positions the two devices, one on the starting line, respectively, w
 The athlete from the Chronosmart app, enables the device. Next it is positioned near the sensor and the light on the device comes on. When the athlete starts the light goes out and the device starts counting the time.
 Quando il corridore passa davanti il sensore posto alla fine della corsa, il tempo viene inviato all'app e il corridore sceglierà se salvarlo o rifiutarlo.
 
-![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/howtowork.jpg "Architecture")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/howtowork1.jpg "Architecture")
 
 
 
