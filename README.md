@@ -99,7 +99,7 @@ Links to our LinkedIn accounts:
 
 - First presentation - Idea : https://www.slideshare.net/secret/LcyxXcwAr3uGUI
 - Competitors : https://www.slideshare.net/secret/tFxdH5n0QiLfxF
-- Second presentation - Focus on idea : https://www.slideshare.net/secret/yBZDNS6EJlqRk5
+- Second presentation - Focus on idea : https://www.slideshare.net/AntonioLuciano12/my-fitness-system-presentation-99734738
 - Third presentation : https://www.slideshare.net/AntonioLuciano12/chronosmart
 - MVP: https://www.slideshare.net/AntonioLuciano12/chronosmart-mvp-aionta-alucianolzollo
 - Final presentation - Chronosmart :https://www.slideshare.net/AntonioLuciano12/chronosmart-final-presentation-aionta-alucianolzollo-99732513
