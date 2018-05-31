@@ -75,7 +75,7 @@ The user must register in the app and login for use all the functionality. You c
 
 The user must press "Start" button, and after , when athlete finish to run, the time appears on the screen, along with two buttons, one to save the session and one to delete it.
 
-![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/start.jpg "Record Time")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/recordtime.jpg "Record Time")
 
 
 # ChronoSMART - Show the results
