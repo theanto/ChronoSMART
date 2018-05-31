@@ -44,6 +44,12 @@ Code for Arduino IDE (MASTER and SLAVE) is avalible on :
 
 # Software Architecture 
 
+The components of our project are:
+
+- Android application
+- database on hosting service
+- Firebase Authentication and Firebase Realtime 
+
 ![screen]( )
 
 # How to work
