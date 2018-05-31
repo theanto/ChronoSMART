@@ -88,6 +88,7 @@ Links to our LinkedIn accounts:
 # Slideshow links
 
 - First presentation - Idea : https://www.slideshare.net/secret/LcyxXcwAr3uGUI
+- Competitors : https://www.slideshare.net/secret/tFxdH5n0QiLfxF
 - Second presentation - Focus on idea : https://www.slideshare.net/secret/yBZDNS6EJlqRk5
 - MVP : https://www.slideshare.net/AntonioLuciano12/chronosmart
 - Final presentation - Chronosmart :
