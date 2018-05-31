@@ -5,7 +5,8 @@ Used for athletic races of 100m, 200m and 400m.
 
 # Hardware materials
 - 2x Nucleo board [STM32F401](http://www.st.com/en/microcontrollers/stm32f401.html?querycriteria=productId=LN1810) 
-- 3x Bluetooth module [HC-SR04](http://www.radiofo.it/files/articoli/sku026931new.pdf) 
+- 2x Proximity sensors [HC-SR04](http://www.radiofo.it/files/articoli/sku026931new.pdf) 
+- 3x Bluetooth module [HC-05] (https://components101.com/wireless/hc-05-bluetooth-module)
 - 3x Led (optional)
 - Some cable.  
 - Chronosmart Application
@@ -100,7 +101,7 @@ Links to our LinkedIn accounts:
 - Competitors : https://www.slideshare.net/secret/tFxdH5n0QiLfxF
 - Second presentation - Focus on idea : https://www.slideshare.net/secret/yBZDNS6EJlqRk5
 - MVP : https://www.slideshare.net/AntonioLuciano12/chronosmart
-- Final presentation - Chronosmart : https://www.slideshare.net/AntonioLuciano12/chronosmart-final-presentation-aionta-alucianolzollo
+- Final presentation - Chronosmart :https://www.slideshare.net/AntonioLuciano12/chronosmart-final-presentation-aionta-alucianolzollo-99732513
 
 # Video of demo
 
