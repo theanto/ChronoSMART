@@ -79,7 +79,15 @@ The statistics are shown as a graph, with the possibility of being zoomed, conta
 
 # Team member 
 
+Links to our LinkedIn accounts:
+
 - [Antonio Luciano](https://www.linkedin.com/in/antonio-luciano-b04bb915a/) 
 - [Antonio Ionta](https://www.linkedin.com/in/antonio-ionta-a349b515a/) 
 - [Luigi Zollo](https://www.linkedin.com/in/luigi-zollo-85056915a/) 
 
+# Slideshow links
+
+- First presentation - Idea : https://www.slideshare.net/secret/LcyxXcwAr3uGUI
+- Second presentation - Focus on idea : https://www.slideshare.net/secret/yBZDNS6EJlqRk5
+- MVP : https://www.slideshare.net/AntonioLuciano12/chronosmart
+- Final presentation - Chronosmart :
