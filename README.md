@@ -76,3 +76,10 @@ The statistics are shown as a graph, with the possibility of being zoomed, conta
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/result.jpg "Result")
 
+
+# Team member 
+
+- [Antonio Luciano](https://www.linkedin.com/in/antonio-luciano-b04bb915a/) 
+- [Antonio Ionta](https://www.linkedin.com/in/antonio-ionta-a349b515a/) 
+- [Luigi Zollo](https://www.linkedin.com/in/luigi-zollo-85056915a/) 
+
