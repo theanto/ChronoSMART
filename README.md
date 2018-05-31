@@ -50,7 +50,7 @@ The components of our project are:
 - database on hosting service
 - Firebase Authentication and Firebase Realtime 
 
-![screen]( )
+![screen]( https://github.com/theanto/ChronoSMART/blob/master/Screenshot/Senza%20titolo-1.jpg)
 
 # How to work
 
