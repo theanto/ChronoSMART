@@ -42,6 +42,9 @@ Master configuration
 Code for Arduino IDE (MASTER and SLAVE) is avalible on : 
 ### https://github.com/LuigiZ91/Chronosmart
 
+# Software Architecture 
+
+![screen]( )
 
 # How to work
 
@@ -91,4 +94,7 @@ Links to our LinkedIn accounts:
 - Competitors : https://www.slideshare.net/secret/tFxdH5n0QiLfxF
 - Second presentation - Focus on idea : https://www.slideshare.net/secret/yBZDNS6EJlqRk5
 - MVP : https://www.slideshare.net/AntonioLuciano12/chronosmart
-- Final presentation - Chronosmart :
+- Final presentation - Chronosmart : https://www.slideshare.net/AntonioLuciano12/chronosmart-final-presentation-aionta-alucianolzollo
+
+# Video of demo
+
