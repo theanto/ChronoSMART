@@ -87,7 +87,7 @@ The statistics are shown as a graph, with the possibility of being zoomed, conta
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/result1.jpg "Result")
 
 
-# Team member 
+# Team members 
 
 Links to our LinkedIn accounts:
 
