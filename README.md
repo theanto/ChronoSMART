@@ -14,9 +14,31 @@ Used for athletic races of 100m, 200m and 400m.
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/arduino-hc05-kullanc4b1mc4b1.jpg "Architecture")
 
-
 We use 3 bluetooth module.
 Two module are connected with master and slave method.
+
+# Prototype of Chronosmart
+
+#### The Master (position at starting point) 
+
+
+*Outside*
+
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-19.jpg "Master")
+
+*Inside*
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-26.jpg "Master")
+
+#### The Slave (position at finish point) 
+
+
+*Outside*
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-29.jpg "Slave")
+
+*Inside*
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-23.jpg "Slave")
+
+# AT mode for microcontrollers paring
 
 Most useful AT commands are
 
@@ -40,17 +62,17 @@ Master configuration
 
 
 
-# Code for Arduino IDE (MASTER and SLAVE) 
+# Code for Arduino IDE (MASTER and SLAVE)
 
 The arduino code for make work the project "Chronosmart".
 There are two file that you have to load on the boards after pairing them each other through the AT mode.
 
-# Chronosmart - Master.ino 
+# Chronosmart - Arduino (Master.ino)
 The master waits for the start signal from the slave wich in turn waits for the start of the app hence when the user click on the button "start" the slave send "1" to master and the system is turn On. When the runner is positioned in front of the first sensor the master turn on the green Led to signal that it will start to record time when the run starts.
 Once the runner starts the Master send a signal to make the slave start to record time.
 
 
-# Chronosmart - Slave.ino
+# Chronosmart - Arduino (Slave.ino)
 The slave send the "1" to the master (when the user click on the "start button") and wait the signal (always from the master) to start the stopwatch. When the runner passes in front of the sensor, the slave stop the stopwatch and send the time to the Android app.
 
 
