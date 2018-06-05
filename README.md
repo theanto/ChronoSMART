@@ -27,6 +27,8 @@ Two module are connected with master and slave method.
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-19.jpg "Master")
 
 *Inside*
+
+
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-26.jpg "Master")
 
 #### The Slave (position at finish point) 
@@ -36,6 +38,8 @@ Two module are connected with master and slave method.
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-29.jpg "Slave")
 
 *Inside*
+
+
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-23.jpg "Slave")
 
 # AT mode for microcontrollers paring
