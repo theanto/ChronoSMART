@@ -312,7 +312,7 @@ public class mainStatistiche extends AppCompatActivity {
 
 
                             barChart.setVisibility(View.VISIBLE);
-                            BarDataSet barDataSet = new BarDataSet(barEntries,"results");
+                            BarDataSet barDataSet = new BarDataSet(barEntries,"Past results");
                             barDataSet.setColors(new int[]{Color.parseColor("#5ef812")}); //colorare le barre
                             barDataSet.setBarSpacePercent(50f); //spessore barre, vedere bene
                             BarData theData = new BarData(theDates,barDataSet);
@@ -322,7 +322,7 @@ public class mainStatistiche extends AppCompatActivity {
                             //barChart.getAxisLeft().setSpaceTop(200f);
                            // barChart.getAxisLeft().setAxisMaxValue(200f);
                             barChart.getAxisRight().setEnabled(false);
-                            barChart.setDescription("");
+                            barChart.setDescription("Day - weather");
                             barChart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
 
                             barChart.invalidate(); // refresh

@@ -95,7 +95,8 @@ public class UserAreaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user_area);
 
         Button logoutB = (Button) findViewById(R.id.logoutB);
-
+        ImageButton logout = (ImageButton) findViewById(R.id.logut);
+        ImageButton info = (ImageButton) findViewById(R.id.tInfo);
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.navigationView);
 
         TextView tMail = (TextView) findViewById(R.id.tMail);
@@ -193,12 +194,17 @@ public class UserAreaActivity extends AppCompatActivity {
 
 
 
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent info = new Intent(UserAreaActivity.this, infoActivity.class);
+                UserAreaActivity.this.startActivity(info);
+
+            }
+        });
 
 
-
-
-
-        logoutB.setOnClickListener(new View.OnClickListener() {
+        logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
@@ -293,6 +299,21 @@ public class UserAreaActivity extends AppCompatActivity {
                         Intent setting = new Intent(UserAreaActivity.this, editProfileActivity.class);
                         UserAreaActivity.this.startActivity(setting);
                         break;
+
+
+                    case R.id.action_top:
+                        Intent top = new Intent(UserAreaActivity.this, topFive.class);
+                        top.putExtra("name", name);
+                        top.putExtra("surname", surname);
+                        top.putExtra("id", userID);
+                        top.putExtra("email", email);
+                        top.putExtra("age", age);
+                        top.putExtra("privilegi", privilegi);
+                        UserAreaActivity.this.startActivity(top);
+                        break;
+
+
+
 
                 }
                 return false;

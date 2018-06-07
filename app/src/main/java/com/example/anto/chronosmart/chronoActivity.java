@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -53,7 +54,7 @@ import android.widget.Toast;
 
 import org.json.JSONException;
 
-public class chronoActivity extends AppCompatActivity {
+public class chronoActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     private static final String TAG = "bluetooth2";
 
@@ -82,7 +83,7 @@ public class chronoActivity extends AppCompatActivity {
     private DatabaseReference myRef;
     private String time,currentTime;
     private ProgressDialog progress;
-
+    private String spinner;
 
     /** Called when the activity is first created. */
     @Override
@@ -134,7 +135,10 @@ public class chronoActivity extends AppCompatActivity {
         weather_conditions = populate_weather_condition_data(weather_conditions);
         myAdapter = new Custom_adapter(this, weather_conditions);
         weatherSpinner.setAdapter(myAdapter);
+        weatherSpinner.setOnItemSelectedListener(this);
 
+        Log.d("weather_conditions",""+weather_conditions);
+        Log.d("myAdapter",""+myAdapter.toString());
 
       mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -202,19 +206,32 @@ public class chronoActivity extends AppCompatActivity {
 
                         break;
                     case R.id.action_cron:
-                        // open fragment 2
                         break;
                     case R.id.action_statistic:
-
+                        Intent mainStatistiche = new Intent(chronoActivity.this, mainStatistiche.class);
+                        mainStatistiche.putExtra("name", name);
+                        mainStatistiche.putExtra("surname", surname);
+                        mainStatistiche.putExtra("id", userID);
+                        mainStatistiche.putExtra("email", email);
+                        mainStatistiche.putExtra("age", age);
+                        mainStatistiche.putExtra("privilegi", privilegi);
+                        chronoActivity.this.startActivity(mainStatistiche);
                         break;
 
                     case R.id.action_face:
-                       /* Intent addData = new Intent(UserAreaActivity.this, addData.class);
+                        Intent sett = new Intent(chronoActivity.this, editProfileActivity.class);
+                        chronoActivity.this.startActivity(sett);
+                        break;
 
-                        addData.putExtra("name", name);
-                        addData.putExtra("id", user);
-
-                        UserAreaActivity.this.startActivity(addData);*/
+                    case R.id.action_top:
+                        Intent top = new Intent(chronoActivity.this, topFive.class);
+                        top.putExtra("name", name);
+                        top.putExtra("surname", surname);
+                        top.putExtra("id", userID);
+                        top.putExtra("email", email);
+                        top.putExtra("age", age);
+                        top.putExtra("privilegi", privilegi);
+                        chronoActivity.this.startActivity(top);
                         break;
 
                 }
@@ -233,7 +250,7 @@ public class chronoActivity extends AppCompatActivity {
                         if (endOfLineIndex > 0) {                                            // if end-of-line,
                             String sbprint = sb.substring(0, endOfLineIndex);               // extract string
                             sb.delete(0, sb.length());                                      // and clear
-                            txtArduino.setText("Il tuo tempo è: " + sbprint);            // update TextView
+                            txtArduino.setText("Your time (on 100m) is : " + sbprint );            // update TextView
                             btnOn.setEnabled(true);
 
                             time=sbprint;
@@ -569,7 +586,7 @@ public class chronoActivity extends AppCompatActivity {
                 params.put("surname",surname);
                 params.put("time", time);
                 params.put("userID", userID);
-                params.put("meteo", "sunny");
+                params.put("meteo", spinner);
                 params.put("data", cu);
                 Log.d("Popolazione", time+" "+" "+ userID+ " "+ currentTime);
                 return params;
@@ -584,5 +601,15 @@ public class chronoActivity extends AppCompatActivity {
         weather_conditions.add(new Weather_condition("Rain", R.drawable.rain));
 
         return weather_conditions;
+    }
+
+    public void onItemSelected(AdapterView<?> parent, View view, int pos, long id) {
+
+        spinner=parent.getItemAtPosition(pos).toString();
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
     }
 }
