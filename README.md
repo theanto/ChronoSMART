@@ -134,12 +134,10 @@ Links to our LinkedIn accounts:
 
 # Slideshow links
 
-- First presentation - Idea : https://www.slideshare.net/secret/LcyxXcwAr3uGUI
-- Competitors : https://www.slideshare.net/secret/tFxdH5n0QiLfxF
-- Second presentation - Focus on idea : https://www.slideshare.net/AntonioLuciano12/my-fitness-system-presentation-99734738
-- Third presentation : https://www.slideshare.net/AntonioLuciano12/chronosmart
-- MVP: https://www.slideshare.net/AntonioLuciano12/chronosmart-mvp-aionta-alucianolzollo
-- Final presentation - Chronosmart : https://www.slideshare.net/AntonioLuciano12/chronosmart-final-presentation-aionta-alucianolzollo-99791590
+- First presentation - Idea : https://www.slideshare.net/AntonioIonta/my-fitness-system-initial-ideas
+- Overview and user evaluation : https://www.slideshare.net/AntonioIonta/chronosmart-overview-user-evaluation
+- MVP: https://www.slideshare.net/AntonioIonta/chronosmart-mvp
+- Final presentation - Chronosmart : https://www.slideshare.net/AntonioIonta/chronosmart-final-presentation-101093689
 
 # Video of demo
 https://youtu.be/Adssc22V0bk
