@@ -31,7 +31,7 @@ Two module are connected with master and slave method.
 *Inside*
 
 
-![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-26.jpg "Master")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-05_14-44-266.jpg "Master")
 
 #### The Slave (position at finish point) 
 
