@@ -10,51 +10,45 @@
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="171dp"
+        android:layout_height="207dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:adjustViewBounds="false"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/home" />
 
-    <TextView
-        android:id="@+id/tMail"
-        android:layout_width="257dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="254dp"
-        android:text="TextView" />
-
     <ImageView
         android:id="@+id/profileImage"
         android:layout_width="105dp"
         android:layout_height="103dp"
+
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="17dp"
+        android:layout_marginTop="60dp"
         android:scaleType="fitXY"
-
         app:srcCompat="@drawable/imagepf" />
 
-    <Button
-        android:id="@+id/logoutB"
-        android:layout_width="115dp"
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="98dp"
-        android:background="@drawable/buttonstyle"
-        android:text="Logout"
-        android:textColor="#fff" />
+        android:layout_alignParentStart="true"
+        android:background="?android:attr/windowBackground"
+        app:itemBackground="@color/menu"
+        app:itemIconTint="@color/menuC"
+        app:itemTextColor="@color/menuC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/menu" />
 
     <android.support.v7.widget.CardView
         android:layout_width="298dp"
         android:layout_height="80dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="144dp">
+        android:layout_marginTop="173dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -105,56 +99,137 @@
 
     </android.support.v7.widget.CardView>
 
-
-    
-    
-    
-    
-    
-    
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigationView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="159dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:background="?android:attr/windowBackground"
-        app:itemBackground="@color/menu"
-        app:itemIconTint="@color/menuC"
-        app:itemTextColor="@color/menuC"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/menu" />
+        android:layout_marginBottom="161dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="35dp"
-        android:layout_height="36dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="245dp"
-        app:srcCompat="@drawable/mail" />
+        <LinearLayout
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/ageView"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/imageView2"
-        android:layout_marginBottom="178dp"
-        app:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="false"
+                android:layout_alignParentTop="false"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-50dp"
+                app:srcCompat="@drawable/mail" />
+
+            <ImageView
+                android:id="@+id/ageView"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/imageView2"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/com_facebook_profile_picture_blank_square" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="159dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tMail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="100dp"
+                android:layout_marginLeft="-90dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/tMail"
+                android:layout_marginLeft="-112dp"
+                android:layout_marginTop="-75dp"
+                android:text="TextView" />
+
+        </LinearLayout>
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/tAge"
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/tMail"
-        android:layout_marginBottom="186dp"
-        android:text="TextView" />
+        android:layout_above="@+id/logoutB"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="100m stopwatch"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="chronosmart"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/logut"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/buttonstyle"
+        app:srcCompat="@drawable/ic_logout" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView8"
+        android:layout_marginRight="5dp"
+        android:text="Logout"
+        android:textColor="@color/cardview_light_background" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:text="Info"
+        android:textColor="@color/cardview_light_background" />
+
+    <ImageButton
+        android:id="@+id/tInfo"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/buttonstyle"
+        app:srcCompat="@drawable/ic_inf" />
 
 </RelativeLayout>

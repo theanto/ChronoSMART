@@ -19,13 +19,23 @@
         android:padding="@dimen/activity_horizontal_margin">
 
 
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-20dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="chronosmart"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="30sp" />
+
         <ImageView
             android:layout_width="@dimen/logo_w_h"
             android:layout_height="@dimen/logo_w_h"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
             android:src="@drawable/chrono" />
-
 
         <EditText
             android:id="@+id/email"
