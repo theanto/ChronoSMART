@@ -123,7 +123,7 @@ The user must press "Start" button, and after , when athlete finish to run, the 
 The user can access his statistics by clicking on the menu in the appropriate button.
 The statistics are shown as a graph, with the possibility of being zoomed, containing the times, dates and weather information.
 
-![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/result1.jpg "Result")
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/6s.jpg "Result")
 
 
 # Team members 
