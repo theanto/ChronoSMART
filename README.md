@@ -11,6 +11,8 @@ Used for athletic races of 100m, 200m and 400m.
 - Some cable.  
 - Chronosmart Application
 
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-07_11-32-24.jpg) 
+
 
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/arduino-hc05-kullanc4b1mc4b1.jpg "Architecture")
 
@@ -88,7 +90,7 @@ The components of our project are:
 - database on hosting service
 - Firebase Authentication and Firebase Realtime 
 
-![screen]( https://github.com/theanto/ChronoSMART/blob/master/Screenshot/Senza%20titolo-1.jpg)
+![screen]( https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-07_11-32-27.jpg )
 
 # How to work
 
