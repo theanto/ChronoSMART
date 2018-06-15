@@ -92,12 +92,22 @@ We took the times of the same phenomenon in two different ways:
 We have made 10 attempts and the average delay time between the two connections is: 92.5 ms 
 
 as shown in this screen: 
+
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/35300531_10214267057342157_7898894128103030784_n.png)
 
 
 
 ## Hardware connection 
+
+How to make serial connection: 
+
+- RX of first Nucleo connected with TX of second Nucleo.
+- TX of first Nucleo connected with RX of second Nucleo.
+- GND between the two Nucleo.
+
 ![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-15_13-42-45.jpg)
+
+
 
 
 
