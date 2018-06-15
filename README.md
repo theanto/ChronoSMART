@@ -93,7 +93,7 @@ We have made 10 attempts and the average delay time between the two connections 
 
 as shown in this screen: 
 
-![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/35300531_10214267057342157_7898894128103030784_n.png)
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/resultevaluation.png)
 
 
 
