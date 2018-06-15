@@ -89,9 +89,15 @@ We took the times of the same phenomenon in two different ways:
 - Connection by cable
 - Connection via Bluetooth
 
-We have made 10 attempts and the average delay time between the two connections is: 92.5
-as shown in this screen
+We have made 10 attempts and the average delay time between the two connections is: 92.5 ms 
 
+as shown in this screen: 
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/35300531_10214267057342157_7898894128103030784_n.png)
+
+
+
+## Hardware connection 
+![screen](https://github.com/theanto/ChronoSMART/blob/master/Screenshot/photo_2018-06-15_13-42-45.jpg)
 
 
 
