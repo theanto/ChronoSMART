@@ -82,6 +82,20 @@ Once the runner starts the Master send a signal to make the slave start to recor
 The slave send the "1" to the master (when the user click on the "start button") and wait the signal (always from the master) to start the stopwatch. When the runner passes in front of the sensor, the slave stop the stopwatch and send the time to the Android app.
 
 
+# Chronosmart - Evaluation of delay (wired vs Bluetooth connection) 
+
+We took the times of the same phenomenon in two different ways:
+
+- Connection by cable
+- Connection via Bluetooth
+
+We have made 10 attempts and the average delay time between the two connections is: 92.5
+as shown in this screen
+
+
+
+
+
 # Software Architecture 
 
 The components of our project are:
